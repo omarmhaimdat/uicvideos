@@ -184,10 +184,12 @@ drift.load('7uhfkezcagg4');
 
 
  .sign.error-page-wrapper .text-container {
-    max-width:625px;
+    max-width:100%;
     position: absolute;
-    bottom:20px;
-    left:35px;
+    bottom:60px;
+    left:10%;
+    right: 10%
+    text-align: center;
   }
 
  .sign.error-page-wrapper .text-container .headline {
@@ -211,19 +213,19 @@ drift.load('7uhfkezcagg4');
     margin-top:10px;
   }
  .sign.error-page-wrapper .buttons-container {
-    margin-top: 20px;
+    margin-top: 30px;
   }
 
  .sign.error-page-wrapper .buttons-container a {
-    transition: text-indent .2s linear, color .5s linear, border-color .5s linear;
-    font-size:16px;
+    transition: text-indent .2s linear, color .2s linear, border-color .2s linear;
+    font-size:40px;
     text-transform: uppercase;
     text-decoration: none;
     color:#fff;
     border:2px solid white;
     border-radius: 99px;
-    padding:9px 0 10px ;
-    width:235px;
+    padding:20px 0 20px ;
+    width:535px;
     overflow: hidden;
     text-align:center;
     display:inline-block;
@@ -231,7 +233,8 @@ drift.load('7uhfkezcagg4');
   }
 
  .sign.error-page-wrapper .buttons-container a:hover {
-    background-color:rgba(255,255,255,.1);
+    background-color: white;
+    color: #dc2430;
     text-indent: 17px;
   }
 
@@ -246,30 +249,33 @@ drift.load('7uhfkezcagg4');
   }
 
  .sign.error-page-wrapper .buttons-container .fa-warning {
-    font-size:16px;
+    font-size:40px;
     top:14px;
   }
 
  .sign.error-page-wrapper .buttons-container a:hover .fa-warning {
     left:0px;
+    color: #dc2430;
   }
 
  .sign.error-page-wrapper .buttons-container .fa-power-off {
-    font-size:16px;
+    font-size:40px;
     top:14px;
   }
 
  .sign.error-page-wrapper .buttons-container a:hover .fa-power-off {
     left:0px;
+    color: #dc2430;
   }
 
  .sign.error-page-wrapper .buttons-container .fa-home {
-    font-size:18px;
+    font-size:40px;
     top:12px;
   }
 
  .sign.error-page-wrapper .buttons-container a:hover .fa-home {
     left:25px;
+    color: #dc2430;
   }
 
   @media screen and (max-width: 500px) {
@@ -301,6 +307,7 @@ drift.load('7uhfkezcagg4');
     }
    .sign.error-page-wrapper .buttons-container a:hover {
       text-indent: 0px;
+      color: #dc2430;
     }
    .sign.error-page-wrapper .buttons-container .fa {
       display:none;
@@ -310,7 +317,7 @@ drift.load('7uhfkezcagg4');
     <style>
 
     .background-color {
-      background-color: rgba(121, 43, 140, 1) !important;
+      background: linear-gradient(to bottom, #7b4397, #dc2430);
     }
 
 
@@ -323,7 +330,8 @@ drift.load('7uhfkezcagg4');
     }
 
     .sign-text-color {
-      color: rgba(89, 52, 163, 1) !important;
+      /*color: rgba(89, 52, 163, 1) !important;*/
+      color: #7b4397 !important;
     }
 
     .sign-frame-color {
@@ -337,6 +345,12 @@ drift.load('7uhfkezcagg4');
     .border-button {
       color: #FFFFFF !important;
       border-color: #FFFFFF !important;
+
+    }
+    .border-button:hover {
+      color: #dc2430 !important;
+      border-color: #FFFFFF !important;
+
     }
     .button {
       background-color: #FFFFFF !important;
@@ -363,16 +377,16 @@ drift.load('7uhfkezcagg4');
 </div>
 <div class="text-container" >
 	<div class="headline secondary-text-color">
-		<div style="font-size: 80px;">404</div><br>
+		<div style="font-size: 80px; color: white; text-align: center; ">404</div><br>
 	</div>
-	<div class="context primary-text-color" >
+	<!-- <div class="context primary-text-color" >
 		<p style="font-size: 30px;">
 			Revenir à la page d'accueil<br><br>
 			Contactez-nous pour signaler le probléme, MERCI.
-		</p>
-	</div>
+		</p><br>
+	</div> -->
 	<div class="buttons-container">
-		<a class="border-button" href="http://uic-students.ml/" target="_blank"><span class="fa fa-home"></span>Accueil</a>
+		<a class="border-button" href="index.html" target="_blank"><span class="fa fa-home"></span>Accueil</a>
 		<a class="border-button" href="mailto:uic.casa.students@gmail.com" target="_blank" ><span class="fa fa-warning"></span>Signaler le probléme.</a>
 	</div>
 </div>
