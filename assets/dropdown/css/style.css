@@ -24,10 +24,10 @@
     vertical-align: middle; }
   .navbar-dropdown .navbar-logo {
     margin-right: 0.8rem;
-    transition: margin 0.3s ease-in-out; }
+    transition: margin 0.1s ease-in-out; }
     .navbar-dropdown .navbar-logo img {
-      height: 5.125rem;
-      transition: all 0.3s ease-in-out; }
+      height: 4.125rem;
+      transition: all 0.1s ease-in-out; }
   .navbar-dropdown .mbr-table-cell {
     height: 5.625rem; }
   .navbar-dropdown .navbar-caption {
